@@ -1,0 +1,66 @@
+/* 공 통 */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body, th, td, input, select, textarea, button {
+    font-size: 1.6rem;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+    font-family: Pretendard, 'applesdgothicneo-light', 'Malgun Gothic', '맑은 고딕';
+    font-weight: 300;
+}
+
+body {
+    background-color: #f7f7fb;
+}
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/* 헤 더 */
+
+
+
+
+
+/* 컨테이너 1 */
+
+
+
+
+
+/* 컨테이너 2 */
+
+
+
+
+
+/* 컨테이너 3 */
+
+
+
+
+
+/* 컨테이너 4 */
+
+
+
+
+
+/* 뿌 터 */
+
