@@ -9,7 +9,7 @@
 예를 들어 container1 태그 안에 textbox, textbox 태그 안에 text1 이라는 텍스트가 있다고 할 때..
 
 .container1 .textbox .text1 ---> Good
-.text ---> Hmm..
+.text1 ---> Hmm..
 
 부모-자식 관계가 명확히 나타나있어야 태그끼리 속성이 겹치지 않고, 나중에 수정할 때 확인하기도 용이해서 그렇습니다.
 
