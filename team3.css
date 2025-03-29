@@ -12,7 +12,13 @@ html {
     font-size: 10px;
 }
 
-body, th, td, input, select, textarea, button {
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
     font-size: 1.6rem;
     letter-spacing: -0.025em;
     line-height: 1.4;
@@ -30,37 +36,69 @@ body {
     }
 }
 
-
-
 /* 헤 더 */
 
-
-
-
-
 /* 컨테이너 1 */
+.container1 {
+    position: relative;
+    display: flex;
+    width: 1920px;
+    height: 750px;
+}
 
+.textbox1 {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 256px;
+    z-index: 2;
+    text-align: left;
+}
 
+.textbox1 h1 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #111;
+    margin-bottom: 10px;
+}
 
+.textbox1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 24px;
+}
 
+.galbutton {
+    background: #111;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.imagebox1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    z-index: 1;
+}
 
 /* 컨테이너 2 */
 
-
-
-
-
 /* 컨테이너 3 */
-
-
-
-
 
 /* 컨테이너 4 */
 
-
-
-
-
 /* 뿌 터 */
-
