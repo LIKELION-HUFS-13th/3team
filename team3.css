@@ -72,7 +72,7 @@ body {
 
 .textbox1 h1 {
     font-size: 48px;
-    font-weight: 700px;
+    font-weight: 700;
     color: #111;
     margin-bottom: 10px;
 }
@@ -92,9 +92,10 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.imagebox1 {
+/* .imagebox1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -103,11 +104,69 @@ body {
     align-items: center;
 }
 
-.image {
+.image-top {
     position: absolute;
     width: 100%;
     height: 100%;
     transform-origin: center;
+    z-index: 2;
+}
+
+.image-bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    z-index: 1;
+} */
+
+.container1 .imagebox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container1 .imagebox .image-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    background-color: linear-gradient(
+        180deg,
+        rgba(247, 247, 251, 1) 0%,
+        rgba(247, 247, 251, 0) 25%,
+        rgba(247, 247, 251, 0) 75%,
+        rgba(247, 247, 251, 1) 100%
+    );
+    /* 위아래 마스크 그라데이션 적용 */
+    /* -webkit-mask-image: linear-gradient(
+        180deg,
+        rgba(247, 247, 251, 1) 0%,
+        rgba(247, 247, 251, 0) 25%,
+        rgba(247, 247, 251, 0) 75%,
+        rgba(247, 247, 251, 1) 100%
+    );
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+
+    mask-image: linear-gradient(
+        180deg,
+        rgba(247, 247, 251, 1) 0%,
+        rgba(247, 247, 251, 0) 25%,
+        rgba(247, 247, 251, 0) 75%,
+        rgba(247, 247, 251, 1) 100%
+    );
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat; */
+}
+
+.container1 .imagebox .image-bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: 1;
 }
 
