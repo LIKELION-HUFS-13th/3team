@@ -57,7 +57,6 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1920px;
     height: 80px;
 }
 
@@ -71,7 +70,7 @@ body {
 
 /* 가운데 */
 .center {
-    margin: 29px 457px 29px 458px;
+    margin: 29px 0px;
     font-size: 16px;
     font-weight: 500;
     color: #505050;
@@ -99,6 +98,7 @@ body {
     color: #111111;
     border-radius: 8px;
     border: 1px #e5e5ec;
+    margin-right: 10px;
 }
 
 .right :nth-child(2) {
