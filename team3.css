@@ -113,54 +113,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1920px;
+    align-items: center;
+    width: auto;
     height: 80px;
-}
-
-/* 왼쪽 */
-.left {
-    margin: 23px 0px 23px 130px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #111111;
-}
-
-/* 가운데 */
-.center {
-    margin: 29px 457px 29px 458px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #505050;
-}
-
-.center span {
-    margin: 29px 30px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #505050;
-}
-/*오른쪽*/
-.right {
-    margin: 19px 130px 19px 0px;
-}
-
-.right button {
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 8px;
-    padding: 10px 20px;
-}
-.right :first-child {
-    background-color: #ffffff;
-    color: #111111;
-    border-radius: 8px;
-    border: 1px #e5e5ec;
-}
-
-.right :nth-child(2) {
-    background-color: #111111;
-    color: #ffffff;
-    border: none;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 /* 컨테이너 1 : 이우성 */
