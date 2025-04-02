@@ -60,6 +60,8 @@ body {
     align-items: center;
     width: auto;
     height: 80px;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 /* 왼쪽 */
