@@ -15,8 +15,6 @@
 
 */
 
-
-
 /* 공 통 */
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
@@ -31,7 +29,13 @@ html {
     font-size: 10px;
 }
 
-body, th, td, input, select, textarea, button {
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
     font-size: 1.6rem;
     letter-spacing: -0.025em;
     line-height: 1.4;
@@ -49,37 +53,105 @@ body {
     }
 }
 
-
-
 /* 헤 더 : 이단규 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 80px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
 
+/* 왼쪽 */
+.left {
+    margin: 23px 0px 23px 130px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
 
+/* 가운데 */
+.center {
+    font-size: 16px;
+    font-weight: 500;
+    color: #505050;
+}
 
+.center span {
+    margin: 29px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #505050;
+}
+/*오른쪽*/
+.right {
+    display: flex;
+    gap: 12px;
+    margin: 19px 130px 19px 0px;
+}
 
+.right button {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.right :first-child {
+    background-color: #ffffff;
+    color: #111111;
+    border-radius: 8px;
+    border: 1px solid #e5e5ec;
+}
+
+.right :nth-child(2) {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+}
 
 /* 컨테이너 1 : 이우성 */
 
-
-
-
-
 /* 컨테이너 2 : 정다경 */
-
-
-
-
 
 /* 컨테이너 3 : 박윤정 */
 
-
-
-
-
 /* 컨테이너 4 : 김유민 */
 
-
-
-
-
 /* 뿌 터 : 이단규 */
+.footer {
+    display: flex;
+    justify-content: left;
+    width: 1920px;
+    height: 458px;
+}
 
+.footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #767676;
+    margin-top: 130px;
+}
+
+.footer div :first-child {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer div span {
+    margin-bottom: 10px;
+}
+
+.dev_info {
+    margin-left: 130px;
+}
+
+.service {
+    margin-left: 150px;
+    margin-right: 150px;
+}
