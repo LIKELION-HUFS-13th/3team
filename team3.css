@@ -183,7 +183,39 @@ body {
 }
 
 /* 컨테이너 2 : 정다경 */
+.container2 {
+    width: auto;
+    height: auto;
+}
 
+.text {
+    text-align: center;
+    margin-top: 200px;
+}
+.img {
+    position: relative;
+    display: inline-block;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    transform: scale(0.6773);
+    transform-origin: center;
+}
+
+.shadow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 0;
+    opacity: 40%;
+    transform: scale(0.5686);
+    transform-origin: center;
+
+    margin-top: 148px;
+    margin-bottom: 100px;
+}
 /* 컨테이너 3 : 박윤정 */
 
 /* 컨테이너 4 : 김유민 */
