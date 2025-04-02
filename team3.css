@@ -112,6 +112,75 @@ body {
 }
 
 /* 컨테이너 1 : 이우성 */
+.container1 {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: 750px;
+}
+
+.textbox1 {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 256px;
+    z-index: 2;
+    text-align: left;
+}
+
+.textbox1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.textbox1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+    margin-bottom: 24px;
+}
+
+.galbutton {
+    background: #111;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container1 .imagebox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container1 .imagebox .image-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    background: linear-gradient(
+        180deg,
+        rgba(247, 247, 251, 1) 0%,
+        rgba(247, 247, 251, 0) 25%,
+        rgba(247, 247, 251, 0) 75%,
+        rgba(247, 247, 251, 1) 100%
+    );
+}
+
+.container1 .imagebox .image-bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
 
 /* 컨테이너 2 : 정다경 */
 
