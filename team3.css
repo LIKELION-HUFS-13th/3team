@@ -183,7 +183,52 @@ body {
 }
 
 /* 컨테이너 2 : 정다경 */
+.container2 {
+    width: auto;
+    height: 950px;
+    position: relative;
+    display: flow-root;
+}
 
+.container2_texts {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container2_text1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 100px;
+}
+
+.conatiner2_text2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.container2_main_img {
+    position: absolute;
+    top: 383px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    width: 1300.528px;
+}
+
+.container2_img_shadow {
+    position: absolute;
+    top: 531px;
+    left: 50%;
+    z-index: 0;
+    opacity: 40%;
+    transform: translateX(-50%);
+    width: 1091.76px;    
+    filter: blur(50.4px);
+}
 /* 컨테이너 3 : 박윤정 */
 
 /* 컨테이너 4 : 김유민 */
