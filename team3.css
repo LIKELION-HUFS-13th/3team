@@ -185,36 +185,49 @@ body {
 /* 컨테이너 2 : 정다경 */
 .container2 {
     width: auto;
-    height: auto;
+    height: 950px;
+    position: relative;
+    display: flow-root;
 }
 
-.text {
+.container2_texts {
     text-align: center;
-    margin-top: 200px;
-}
-.img {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.main {
-    position: relative;
-    z-index: 1;
-    transform: scale(0.6773);
-    transform-origin: center;
+.container2_text1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 100px;
 }
 
-.shadow {
+.conatiner2_text2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.container2_main_img {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 383px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    width: 1300.528px;
+}
+
+.container2_img_shadow {
+    position: absolute;
+    top: 531px;
+    left: 50%;
     z-index: 0;
     opacity: 40%;
-    transform: scale(0.5686);
-    transform-origin: center;
-
-    margin-top: 148px;
-    margin-bottom: 100px;
+    transform: translateX(-50%);
+    width: 1091.76px;    
+    filter: blur(50.4px);
 }
 /* 컨테이너 3 : 박윤정 */
 
