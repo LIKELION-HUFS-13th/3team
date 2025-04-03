@@ -297,7 +297,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("yunjung_pic.jpeg");
+    background-image: url("pic/container4/yunjung_pic.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -337,7 +337,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("baby lion 1.jpg");
+    background-image: url("pic/container4/baby lion 1.jpg");
     background-size: 350%;
     background-position: 30% 30%;
 }
@@ -376,7 +376,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("yumin_pic.jpg");
+    background-image: url("pic/container4/yumin_pic.jpg");
     background-size: cover;
     background-position: 0 100%;
 }
@@ -416,7 +416,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("baby lion 2.png");
+    background-image: url("pic/container4/baby lion 2.png");
     background-size: cover;
     background-position: center;
     filter: brightness(90%);
@@ -456,7 +456,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("dan_pic.jpg");
+    background-image: url("pic/container4/dan_pic.jpg");
     background-size: cover;
     background-position: 0 100%;
 }
@@ -496,7 +496,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("baby lion 3.jpg");
+    background-image: url("pic/container4/baby lion 3.jpg");
     background-size: 150%;
     background-position: center;
 }
@@ -535,7 +535,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("woos_pic.jpg");
+    background-image: url("pic/container4/woos_pic.jpg");
     background-size: cover;
     background-position: 0 90%;
 }
@@ -575,7 +575,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("baby lion 4.jpg");
+    background-image: url("pic/container4/baby lion 4.jpg");
     background-size: 200%;
     background-position: 45% 40%;
 }
@@ -614,7 +614,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("dk_pic.jpg");
+    background-image: url("pic/container4/dk_pic.jpg");
     background-size: cover;
     background-position: 0 100%;
 }
@@ -654,7 +654,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("dk_profile.jpg");
+    background-image: url("pic/container4/dk_profile.jpg");
     background-size: 150%;
     background-position: 45% 30%;
 }
@@ -693,7 +693,7 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
-    background-image: url("yd_pic.jpg");
+    background-image: url("pic/container4/yd_pic.jpg");
     background-size: cover;
     background-position: 0 80%;
 }
@@ -733,7 +733,7 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
-    background-image: url("yd_profile.jpg");
+    background-image: url("pic/container4/yd_profile.jpg");
     background-size: 200%;
     background-position: 10% 10%;
 }
