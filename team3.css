@@ -192,6 +192,52 @@ body {
 }
 
 /* 컨테이너 2 : 정다경 */
+.container2 {
+    width: auto;
+    height: 950px;
+    position: relative;
+    display: flow-root;
+}
+
+.container2_texts {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 200px;
+}
+
+.container2_text1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.container2_text2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.container2_main_img {
+    position: absolute;
+    top: 383px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    width: 1300.528px;
+}
+
+.container2_img_shadow {
+    position: absolute;
+    top: 531px;
+    left: 50%;
+    z-index: 0;
+    opacity: 40%;
+    transform: translateX(-50%);
+    width: 1091.76px;    
+    filter: blur(50.4px);
+}
 
 /* 컨테이너 3 : 박윤정 */
 
@@ -251,6 +297,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("yunjung_pic.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .container4 .postbox-1 .post1 .post1-textbox {
@@ -288,6 +337,9 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("baby lion 1.jpg");
+    background-size: 350%;
+    background-position: 30% 30%;
 }
 
 .container4 .postbox-1 .post1 .post1-bar .profile span{
@@ -324,6 +376,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("yumin_pic.jpg");
+    background-size: cover;
+    background-position: 0 100%;
 }
 
 .container4 .postbox-1 .post2 .post2-textbox {
@@ -361,6 +416,10 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("baby lion 2.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
 }
 
 .container4 .postbox-1 .post2 .post2-bar .profile span{
@@ -397,6 +456,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("dan_pic.jpg");
+    background-size: cover;
+    background-position: 0 100%;
 }
 
 .container4 .postbox-1 .post3 .post3-textbox {
@@ -434,6 +496,9 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("baby lion 3.jpg");
+    background-size: 150%;
+    background-position: center;
 }
 
 .container4 .postbox-1 .post3 .post3-bar .profile span{
@@ -470,6 +535,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("woos_pic.jpg");
+    background-size: cover;
+    background-position: 0 90%;
 }
 
 .container4 .postbox-2 .post4 .post4-textbox {
@@ -507,6 +575,9 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("baby lion 4.jpg");
+    background-size: 200%;
+    background-position: 45% 40%;
 }
 
 .container4 .postbox-2 .post4 .post4-bar .profile span{
@@ -543,6 +614,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("dk_pic.jpg");
+    background-size: cover;
+    background-position: 0 100%;
 }
 
 .container4 .postbox-2 .post5 .post5-textbox {
@@ -580,6 +654,9 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("dk_profile.jpg");
+    background-size: 150%;
+    background-position: 45% 30%;
 }
 
 .container4 .postbox-2 .post5 .post5-bar .profile span{
@@ -616,6 +693,9 @@ body {
     width: 33.25em;
     height: 17.5em;
     background-color: #ffffff;
+    background-image: url("yd_pic.jpg");
+    background-size: cover;
+    background-position: 0 80%;
 }
 
 .container4 .postbox-2 .post6 .post6-textbox {
@@ -653,6 +733,9 @@ body {
     height: 3.75em;
     background-color: #ffffff;
     border-radius: 0.625em;
+    background-image: url("yd_profile.jpg");
+    background-size: 200%;
+    background-position: 10% 10%;
 }
 
 .container4 .postbox-2 .post6 .post6-bar .profile span{
