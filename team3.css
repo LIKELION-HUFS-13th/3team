@@ -56,235 +56,228 @@ body {
 /* 헤 더 : 이단규 */
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: auto;
-    height: 80px;
-    flex-wrap: wrap;
-    overflow: hidden;
+    justify-content: space-between;
+    height: 6.4rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8.125em;
 }
 
-/* 왼쪽 */
-.left {
-    margin: 23px 0px 23px 130px;
-    font-size: 24px;
+.header .text1 {
+    font-size: 2.4rem;
+    color: #111111;
     font-weight: 700;
-    color: #111111;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-/* 가운데 */
-.center {
-    font-size: 16px;
-    font-weight: 500;
-    color: #505050;
-}
-
-.center span {
-    margin: 29px 30px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #505050;
-}
-/*오른쪽*/
-.right {
+.header .text2 {
     display: flex;
-    gap: 12px;
-    margin: 19px 130px 19px 0px;
+    gap: 3.75em;
+    justify-content: center;
+    align-items: center;
 }
 
-.right button {
-    font-size: 16px;
+
+.header .text2 span {
+    font-size: 1.6rem;
+    color: #505050;
     font-weight: 500;
-    border-radius: 8px;
-    padding: 10px 20px;
-}
-.right :first-child {
-    background-color: #ffffff;
-    color: #111111;
-    border-radius: 8px;
-    border: 1px solid #e5e5ec;
+    cursor: pointer;
 }
 
-.right :nth-child(2) {
+.header .account {
+    display: flex;
+    gap: 0.75em;
+}
+
+.header .account .register, .header .account .login {
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 0.5em;
+    padding: 0.625em 1.25em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .account .register {
+    background-color: #ffffff;
+    border: 0.0625em solid #e5e5ec;
+}
+
+.header .account .login {
     background-color: #111111;
     color: #ffffff;
     border: none;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    height: 80px;
-    flex-wrap: wrap;
-    overflow: hidden;
 }
 
 /* 컨테이너 1 : 이우성 */
 .container1 {
     position: relative;
-    display: flex;
     width: auto;
-    height: 750px;
+    height: 46.875em;
+    display: flow-root;
 }
 
-.textbox1 {
+.container1-img1 {
     position: absolute;
-    margin-left: 130px;
-    margin-top: 256px;
-    z-index: 2;
-    text-align: left;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -1;
 }
 
-.textbox1 h1 {
-    font-size: 48px;
+.gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(247,247,251,1) 0%, rgba(247,247,251,0) 25%, rgba(247,247,251,0) 75%, rgba(247,247,251,1) 100%);
+    z-index: 0;
+}
+
+.container1 .box {
+    margin: 16em 0 16em 8.125em;
+    position: relative;
+    z-index: 1;
+}
+
+.container1 .box .textbox .text1 {
+    font-size: 3em;
     font-weight: 700;
-    color: #111;
-    margin-bottom: 10px;
+    color: #111111;
 }
 
-.textbox1 p {
-    font-size: 20px;
+.container1 .box .textbox .text2 {
+    font-size: 1.25em;
     font-weight: 500;
     color: #767676;
-    margin-bottom: 24px;
+    margin-top: 0.625em;
 }
 
-.galbutton {
-    background: #111;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
+.container1 .box .create {
+    border-radius: 0.5em;
+    background-color: #111111;
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 1.5em;
+    padding: 0.625em 1.25em;
     cursor: pointer;
-}
-
-.container1 .imagebox {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.container1 .imagebox .image-top {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    background: linear-gradient(
-        180deg,
-        rgba(247, 247, 251, 1) 0%,
-        rgba(247, 247, 251, 0) 25%,
-        rgba(247, 247, 251, 0) 75%,
-        rgba(247, 247, 251, 1) 100%
-    );
-}
-
-.container1 .imagebox .image-bottom {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
 }
 
 /* 컨테이너 2 : 정다경 */
 .container2 {
-    width: auto;
-    height: 950px;
     position: relative;
+    width: auto;
+    height: 59.375em;
     display: flow-root;
 }
 
-.container2_texts {
+.container2 .textbox {
+    position: relative;
+    z-index: 3;
+    margin-top: 12.5em;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 200px;
 }
 
-.container2_text1 {
-    font-size: 32px;
+.container2 .textbox .text1 {
+    font-size: 2em;
     font-weight: 700;
     color: #111111;
 }
 
-.container2_text2 {
-    font-size: 20px;
+.container2 .textbox .text2 {
+    font-size: 1.25em;
     font-weight: 500;
     color: #767676;
+
+    padding-top: 0.625em;
 }
 
-.container2_main_img {
+.container2-img1 {
     position: absolute;
-    top: 383px;
+    z-index: 2;
+    top: 23.94em;
     left: 50%;
+    transform: translateX(-50%);
+    width: 81.283em;
+}
+
+.container2-img2 {
+    position: absolute;
     z-index: 1;
-    transform: translateX(-50%);
-    width: 1300.528px;
-}
-
-.container2_img_shadow {
-    position: absolute;
-    top: 531px;
+    top: 33.18em;
     left: 50%;
-    z-index: 0;
-    opacity: 40%;
     transform: translateX(-50%);
-    width: 1091.76px;    
-    filter: blur(50.4px);
+    width: 68.235em;
+    filter: blur(3.15em);
+    opacity: 0.45;
 }
 
 /* 컨테이너 3 : 박윤정 */
 .container3 {
-    width: 1920px;
-    height: 1103px;
+    position: relative;
+    width: auto;
+    height: 68.9375em;
     display: flow-root;
 }
 
-.container3 .textbox3 .title {
+.container3 .textbox3 {
+    position: relative;
     display: flex;
-    font-size: 32px;
-    margin: 100px 0px 0px 130px;
+    flex-direction: column;
+    gap: 0.625em;
+    z-index: 3;
+    margin: 6.25em 0 6.25em 8.125em;
+}
+
+.container3 .textbox3 .title {
+    font-size: 2em;
     color: #111111;
     font-weight: 700;
-    font-family: Arial, sans-serif;
 }
 
 .container3 .textbox3 .explain {
-    display: flex;
-    font-size: 20px;
-    margin: 10px 0px 0px 130px;
+    font-size: 1.25em;
     color: #767676;
     font-weight: 500;
-    font-family: Arial, sans-serif;
 }
 
-.container3 .imagebox3 {
-    position: relative;
-}
-
-.container3 .imagebox3 .big {
+.container3 .big {
     position: absolute;
-    margin: 100px 0px 0px 0px;
-    box-shadow: 10px 10px 30px 4px rgba(17, 17, 17, 0.25);
+    z-index: 1;
+    top: 22.25em;
+    width: 120em;
+    box-shadow: 0.625em 0.625em 1.875em 0.25em rgba(17, 17, 17, 0.25);
 }
 
-.container3 .imagebox3 .wave {
+.container3 .wave {
     position: absolute;
-    margin: 0px 130.33px 683px 988px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px 6px rgba(17, 17, 17, 0.25);
+    z-index: 2;
+    top: 13.75em;
+    left: 61.75em;
+    width: 50.104em;
+    border-radius: 2em;
+    box-shadow: 0.625em 0.625em 1.875em 0.375em rgba(17, 17, 17, 0.25);
 }
 
-.container3 .imagebox3 .city {
+.container3 .city {
     position: absolute;
-    margin: 498px 791.92px 100px 130px;
-    border-radius: 20px;
+    z-index: 2;
+    top: 47.6875em;
+    left: 8.125em;
+    width: 62.38em;
+    border-radius: 2em;
+    box-shadow: 0.625em 0.625em 1.875em 0.375em rgba(17, 17, 17, 0.25);
 }
 
 /* 컨테이너 4 : 김유민 */
@@ -404,6 +397,7 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* post 2 */
@@ -484,6 +478,7 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* post 3 */
@@ -563,6 +558,7 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* post 4 */
@@ -642,6 +638,7 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* post 5 */
@@ -721,6 +718,7 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* post 6 */
@@ -800,41 +798,83 @@ body {
     border: none;
     padding: 0.75em 1.5em;
     margin-left: 1.25em;
+    cursor: pointer;
 }
 
 /* 뿌 터 : 이단규 */
 .footer {
     display: flex;
-    justify-content: left;
-    width: 1920px;
-    height: 458px;
+    width: auto;
+    height: 28.625em;
+    background-color: #F2F2F7;
 }
 
-.footer div {
+.footer .dev_info {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    font-size: 16px;
+    gap: 1.25em;
+    margin: 8.125em 0 8.125em 8.125em;
+}
+
+.footer .dev_info .head {
+    font-size: 1.25em;
     font-weight: 500;
     color: #767676;
-    margin-top: 130px;
 }
 
-.footer div :first-child {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.footer .dev_info .other {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    font-size: 1em;
+    font-weight: 400;
 }
 
-.footer div span {
-    margin-bottom: 10px;
+.footer .dev_info .other a {
+    color: #767676;
+    text-decoration: none;
 }
 
-.dev_info {
-    margin-left: 130px;
+.footer .service {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    margin: 8.125em 0 8.125em 9.375em;
 }
 
-.service {
-    margin-left: 150px;
-    margin-right: 150px;
+.footer .service .head {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #767676;
+}
+
+.footer .service .other {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    font-size: 1em;
+    font-weight: 400;
+    color: #767676;
+}
+
+.footer .policy {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    margin: 8.125em 0 8.125em 9.375em;
+}
+
+.footer .policy .head {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #767676;
+}
+
+.footer .policy .other {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    font-size: 1em;
+    font-weight: 400;
+    color: #767676;
 }

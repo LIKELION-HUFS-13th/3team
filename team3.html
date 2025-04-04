@@ -6,47 +6,45 @@
         <title>TEAM 3</title>
         <link rel="stylesheet" href="team3.css" />
     </head>
-        <body>
+    <body>
         <!-- 헤더 : 이단규-->
         <div class="header">
-            <div class="left">Continuum</div>
-            <div class="center">
+            <a href="" class="text1">Continuum</a>
+            <div class="text2">
                 <span>둘러보기</span>
                 <span>랭킹</span>
                 <span>내 갤러리</span>
                 <span>고객센터</span>
             </div>
-            <div class="right">
-                <button>회원가입</button>
-                <button>로그인</button>
+            <div class="account">
+                <button class="register">회원가입</button>
+                <button class="login">로그인</button>
             </div>
         </div>
 
         <!-- 컨테이너 1 : 이우성 -->
         <div class="container1">
-            <div class="textbox1">
-                <h1>당신의 순간들을<br />연결하세요.</h1>
-                <p>Try creating your own gallery.</p>
-                <button class="galbutton">갤러리 생성</button>
+            <div class="box">
+                <div class="textbox">
+                    <div class="text1">
+                        당신의 순간들을<br>연결하세요.
+                    </div>
+                    <div class="text2">Try creating your own gallery.</div>
+                </div>
+                <button class="create">갤러리 생성</button>
             </div>
-            <div class="imagebox">
-                <div class="image-top" src="pic/container1 image.png"></div>
-                <img class="image-bottom" src="pic/container1 image.png" />
-            </div>
+            <div class="gradient-overlay"></div>
+            <img src="pic/container1 image.png" alt="" class="container1-img1">
         </div>
 
         <!-- 컨테이너 2 : 정다경 -->
         <div class="container2">
-            <div class="container2_texts">
-                <p class="container2_text1">
-                    소중했던 모든 순간들을 한 폭의 파노라마로.
-                </p>
-                <p class="container2_text2">
-                    단편적인 과거의 조각들을 이어 붙여 하나의 연속적인 기억으로 만들어보세요.
-                </p>
+            <div class="textbox">
+                <div class="text1">소중했던 모든 순간들을 한 폭의 파노라마로.</div>
+                <div class="text2">단편적인 과거의 조각들을 이어 붙여 하나의 연속적인 기억으로 만들어보세요.</div>
             </div>
-                <img class="container2_main_img" src="pic/container2 image.png" />
-                <img class="container2_img_shadow" src="pic/container2 image.png"/>
+            <img src="pic/container2 image.png" class="container2-img1">
+            <img src="pic/container2 image.png" alt="그림자" class="container2-img2">
         </div>
         
         <!-- 컨테이너 3 : 박윤정 -->
@@ -55,11 +53,9 @@
                 <span class="title">한순간조차도,<br>아름다운 작품처럼.</span>
                 <span class="explain"> Pixel Stretching을 활용한 이미지 편집을 통해<br>찰나의 순간도 놓치지 않고 과거의 경험을 생생하게 전달합니다.</span>
             </div>
-            <div class="imagebox3">
-                <img class="big" src="pic/container3 image1.png"/>
-                <img class="wave" src="pic/container3 image2.png" width="801.67px" height="200px"/>
-                <img class="city" src="pic/container3 image3.png" width="988.08px" height="249px"/>
-            </div>
+            <img class="big" src="pic/container3 image1.png"/>
+            <img class="wave" src="pic/container3 image2.png"/>
+            <img class="city" src="pic/container3 image3.png"/>
         </div>
 
         <!-- 컨테이너 4 : 김유민 -->
@@ -161,26 +157,34 @@
         <!-- 뿌터 : 이단규 -->
         <div class="footer">
             <div class="dev_info">
-                <span>개발자 인적 사항</span>
-                <span>박윤정 23학번 ELLT학과 프론트엔드</span>
-                <span>김유민 24학번 경제학전공 프론트엔드</span>
-                <span>이단규 21학번 경제학전공 백엔드</span>
-                <span>이우성 21학번 영미문학문화학과 백엔드</span>
-                <span>정다경 24학번 ELLT학과 백엔드</span>
+                <div class="head">개발자 인적 사항</div>
+                <div class="other">
+                    <a href="https://github.com/yunjung0" target="blank">박윤정 23학번 ELLT학과 프론트엔드</a>
+                    <a href="https://github.com/bbungbbaeng" target="blank">김유민 24학번 경제학전공 프론트엔드</a>
+                    <a href="https://github.com/dangyulee" target="blank">이단규 21학번 경제학전공 백엔드</a>
+                    <a href="https://github.com/woos-02" target="blank">이우성 21학번 영미문학문화학과 백엔드</a>
+                    <a href="https://github.com/rattyrat00" target="blank">정다경 24학번 ELLT학과 백엔드</a>
+                </div>
             </div>
             <div class="service">
-                <span>고객 서비스</span>
-                <span>사용 가이드</span>
-                <span>자주 묻는 질문 (FAQ)</span>
-                <span>가격 정책 페이지</span>
-                <span>고객 지원 센터</span>
-                <span>환불 정책</span>
+                <div class="head">고객 서비스</div>
+                <div class="other">
+                    <span>고객 서비스</span>
+                    <span>사용 가이드</span>
+                    <span>자주 묻는 질문 (FAQ)</span>
+                    <span>가격 정책 페이지</span>
+                    <span>고객 지원 센터</span>
+                    <span>환불 정책</span>
+                </div>
             </div>
             <div class="policy">
-                <span>정책 관련</span>
-                <span>개인정보 처리 방침</span>
-                <span>사이트 이용 약관</span>
-                <span>쿠키 정책</span>
+                <div class="head">정책 관련</div>
+                <div class="other">
+                    <span>정책 관련</span>
+                    <span>개인정보 처리 방침</span>
+                    <span>사이트 이용 약관</span>
+                    <span>쿠키 정책</span>
+                </div>
             </div>
         </div>
     </body>
